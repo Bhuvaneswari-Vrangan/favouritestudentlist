@@ -33,3 +33,5 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        mkdir .github\workflows
+notepad .github\workflows\deploy.yml
