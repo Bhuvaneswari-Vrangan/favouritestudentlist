@@ -7,10 +7,10 @@ import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <StudentProvider>
         <App />
       </StudentProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
